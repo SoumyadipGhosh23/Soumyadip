@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Baloo+Tamma+2&family=Corben&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    width: 80%;
+    min-height: 12vh;
+    margin: auto;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: black;
+    font-family: 'Averia Serif Libre', cursive;
+    color: #fff;
+}
+
+#headerSkill {
+    display: flex;
+    width: 80%;
+    height: 15vh;
+    margin: auto;
+    align-items: center;
+    background-color: black;
+    font-family: 'Averia Serif Libre', cursive;
+    position: sticky;
+    top: 0;
+    color: #fff;
+}
+
+nav {
+    flex: 1;
+
+}
+
+.gotohome {
+    flex: 1;
+    font-size: 0.9em;
+    justify-content: flex-start;
+    margin-left: 1%;
+}
+
+.headings {
+    flex: 2;
+    font-size: 1.9em;
+    margin-left: 13%;
+    color: #219F94;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+#home {
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #fff;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 50vh;
+    align-items: center;
+}
+
+.presentation {
+    flex: 1;
+    margin-left: 20%;
+}
+
+.bio {
+    margin-bottom: 4%;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 1em;
+}
+
+.details {
+    list-style: none;
+    font-size: 0.9em;
+}
+
+.detailsofme {
+    margin-bottom: 3%;
+}
+
+button[type="button"] {
+    font-family: 'Baloo Tamma 2', cursive;
+    border: 2px solid #219F94;
+    background-color: #219F94;
+    color: #fff;
+    border-radius: 5%;
+    padding: 3px 3%;
+}
+
+.connections {
+    margin: 2% 0;
+}
+
+#home h1 {
+    margin: 2% 0 2% 0;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.myimg {
+    flex: 1;
+}
+
+.MyImg {
+    border-radius: 50%;
+    width: 40%;
+}
+
+
+
+#about {
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #fff;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 40vh;
+    align-items: center;
+}
+
+.projects {
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #fff;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 45vh;
+    align-items: center;
+}
+
+.aboutimgsection {
+    flex: 1;
+    margin-left: 20%;
+}
+
+.aboutimgsection1 {
+    flex: 1;
+    margin-right: 12%;
+}
+
+.aboutimg {
+    width: 50%;
+}
+
+.aboutmesection {
+    flex: 1;
+    margin-right: 20%;
+}
+
+.projectdetails {
+    flex: 1;
+    margin-right: 12%;
+}
+
+.projectdetails1 {
+    flex: 1;
+    margin-left: 20%;
+}
+
+
+.projectdetails img {
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.projectdetails1 img {
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.academics {
+    flex: 1;
+    margin-right: 20%;
+    font-family: 'Baloo Tamma 2', cursive;
+
+}
+
+#about h1 {
+    font-size: 1.3em;
+    font-family: 'Averia Serif Libre', cursive;
+    margin-bottom: 2%;
+}
+
+.Bioaboutme {
+    font-size: 0.9em;
+}
+
+.resume:hover {
+    cursor: pointer;
+}
+
+.skills {
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #fff;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+
+
+.listofallSkillsMax {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 20%;
+}
+
+.listOfAllSkills {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.circular-progress,
+.circular-progress1,
+.circular-progress2,
+.circular-progress3,
+.circular-progress4,
+.circular-progress5 {
+    position: relative;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+}
+
+.circular-progress::before,
+.circular-progress1::before,
+.circular-progress2::before,
+.circular-progress3::before,
+.circular-progress4::before,
+.circular-progress5::before {
+    content: "";
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.value-container,
+.value-container1,
+.value-container2,
+.value-container3,
+.value-container4,
+.value-container5 {
+    position: relative;
+    color: #fff;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    font-family: 'Baloo Tamma 2', cursive;
+
+}
+
+
+
+/***Responsive***/
+@media (max-width: 480px) {
+
+    .nav-link{
+        font-size: 0.7em;
+    }
+    header {
+        min-height: 8vh;
+        width: 100%;
+    }
+
+    #home{
+        width: 95%;
+        min-height: 45vh;
+    }
+
+    .MyImg {
+        margin-left: 15%;
+        width: 85%;
+    }
+
+    .presentation {
+        margin-left: 3%;
+    }
+
+    .presentation h1 {
+        font-size: 0.9em;
+    }
+
+    button[type="button"] {
+        padding: 0.5% 5%;
+        margin-bottom: 2%;
+    }
+
+    .bio{
+        font-size: 0.7em;
+    }
+
+    .connections{
+        margin-top: 2%;
+        font-size: 0.8em;
+    }
+
+    .details{
+        font-size: 0.6em;
+    }
+
+    .aboutmesection {
+        margin-right: 3%;
+    }
+
+    #about{
+        width: 95%;
+        min-height: 40vh;
+    }
+
+    #about h1{
+        font-size: 0.9em;
+    }
+
+    .Bioaboutme{
+        margin-top: 8%;
+        font-size: 0.7em;
+        line-height: 1.7;
+    }
+
+    .aboutimgsection{
+        margin-left: 3%;
+    }
+
+    .aboutimg{
+        width: 85%;
+    }
+
+    .resume{
+        margin-bottom: 20%;
+    }
+}
