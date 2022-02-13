@@ -88,10 +88,12 @@ nav {
     font-family: 'Baloo Tamma 2', cursive;
     font-size: 1em;
 }
+
 .connections {
     margin: 2% 0;
 }
-.connections-icons{
+
+.connections-icons {
     margin-right: 2%;
 }
 
@@ -156,7 +158,17 @@ button[type="button"] {
     margin-left: 20%;
 }
 
-.academicsimgsection{
+.aboutimgsectionprojects{
+    flex: 1;
+    margin-left: 20%;
+}
+
+.aboutimgsectionSkill {
+    flex: 1;
+    margin-left: 20%;
+}
+
+.academicsimgsection {
     flex: 1;
     margin-left: 20%;
 }
@@ -170,7 +182,11 @@ button[type="button"] {
     width: 50%;
 }
 
-.academicimg{
+.aboutimgSkill {
+    width: 50%;
+}
+
+.academicimg {
     width: 50%;
 }
 
@@ -207,7 +223,7 @@ button[type="button"] {
 
 }
 
-.academicspointer{
+.academicspointer {
     font-size: 1.5em;
 }
 
@@ -235,7 +251,7 @@ button[type="button"] {
     align-items: center;
 }
 
-.academicsectionsameasSkills{
+.academicsectionsameasSkills {
     font-family: 'Baloo Tamma 2', cursive;
     color: #fff;
     display: flex;
@@ -313,15 +329,16 @@ footer {
 /***Responsive***/
 @media (max-width: 480px) {
 
-    .nav-link{
+    .nav-link {
         font-size: 0.7em;
     }
+
     header {
         min-height: 8vh;
         width: 100%;
     }
 
-    #home{
+    #home {
         width: 95%;
         min-height: 45vh;
     }
@@ -344,20 +361,20 @@ footer {
         margin-bottom: 2%;
     }
 
-    .bio{
+    .bio {
         font-size: 0.7em;
     }
 
-    .connections{
+    .connections {
         margin-top: 2%;
         font-size: 0.8em;
     }
 
-    .details{
+    .details {
         font-size: 0.6em;
     }
 
-    .connections-icons{
+    .connections-icons {
         margin-right: 5%;
     }
 
@@ -365,34 +382,34 @@ footer {
         margin-right: 3%;
     }
 
-    #about{
+    #about {
         width: 95%;
         min-height: 40vh;
     }
 
-    #about h1{
+    #about h1 {
         font-size: 0.9em;
     }
 
-    .Bioaboutme{
+    .Bioaboutme {
         margin-top: 8%;
         font-size: 0.7em;
         line-height: 1.7;
     }
 
-    .aboutimgsection{
+    .aboutimgsection {
         margin-left: 3%;
     }
 
-    .aboutimg{
+    .aboutimg {
         width: 85%;
     }
 
-    .resume{
+    .resume {
         margin-bottom: 20%;
     }
 
-    #headerSkill{
+    #headerSkill {
         width: 90%;
         height: 8vh;
     }
@@ -400,45 +417,166 @@ footer {
     .gotohome {
         font-size: 0.7em;
     }
-    .gotohomeicon{
+
+    .gotohomeicon {
         font-size: 0.7em;
     }
 
-    .headings{
+    .headings {
         font-size: 1.3em;
         margin-left: 5%;
     }
 
-    .academics{
+    .academics {
         margin-right: 1%;
     }
-    .academics h1{
+
+    .academics h1 {
         font-size: 0.9em;
     }
-    .academics p{
+
+    .academics p {
         font-size: 0.7em;
     }
-    .academicspointer{
+
+    .academicspointer {
         font-size: 1em
     }
-    .invisiblebr{
+
+    .invisiblebr {
         display: none;
     }
 
-    .academicsimgsection{
+    .academicsimgsection {
         margin-left: 3%;
     }
 
-    .academicimg{
+    .academicimg {
         width: 90%;
     }
 
-    .academicsectionsameasSkills{
+    .academicsectionsameasSkills {
         width: 95%;
         height: 88vh;
     }
 
-    footer p{
+    footer p {
         font-size: 0.8em;
+    }
+
+    .gotohomeSkill {
+        margin-top: 1%;
+    }
+
+    .skills {
+        width: 95%;
+    }
+
+    .aboutimgsectionSkill {
+        margin-left: 3%;
+    }
+
+    .aboutimgSkill {
+        width: 75%;
+    }
+
+    .listofallSkillsMax {
+        margin-right: 2%;
+        flex: 2;
+    }
+
+    .circular-progress,
+    .circular-progress1,
+    .circular-progress2,
+    .circular-progress3,
+    .circular-progress4,
+    .circular-progress5 {
+        height: 50px;
+        width: 50px;
+    }
+
+    .circular-progress::before,
+    .circular-progress1::before,
+    .circular-progress2::before,
+    .circular-progress3::before,
+    .circular-progress4::before,
+    .circular-progress5::before {
+        height: 75%;
+        width: 75%;
+    }
+
+    .value-container,
+    .value-container1,
+    .value-container2,
+    .value-container3,
+    .value-container4,
+    .value-container5 {
+        font-size: 0.8em;
+    }
+    .skillnamesection{
+        font-size: 0.7em;
+    }
+
+    .listOfAllSkills {
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .gotohomeProjects{
+        margin-top: 4%;
+    }
+
+    .projects{
+        width: 95%;
+        min-height: 40vh;
+    }
+
+    .headingsProjects{
+        margin-top: 2%;
+    }
+
+    .aboutimgsectionprojects{
+        margin-left: 3%;
+    }
+
+    .projectdetails{
+        margin-right: 3%;
+    }
+
+    .projectdetails h3{
+        font-size: 1em;
+    }
+
+    .projectdetails img,
+    .projectdetails1 img{
+        width: 80%;
+    }
+
+    .projectdetails span,
+    .projectdetails1 span{
+        font-size: 0.7em;
+    }
+
+    .projectdetails .fa-solid,
+    .projectdetails1 .fa-solid{
+        font-size: 0.7em;
+    }
+
+    .projectdetails1{
+        margin-left: 7%;
+    }
+
+    .projectdetails1 h3{
+        font-size: 1em;
+    }
+
+    .aboutimgsection1{
+        margin-right: 1%;
+    }
+
+    .footerproject{
+        position: absolute;
+        bottom: 0;
+        left: 23%;
     }
 }
