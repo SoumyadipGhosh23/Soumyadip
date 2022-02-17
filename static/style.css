@@ -129,6 +129,12 @@ button[type="button"] {
 .MyImg {
     border-radius: 50%;
     width: 40%;
+    transition: 1s;
+}
+
+.MyImg:hover{
+    transform: scale(1.3);
+
 }
 
 
